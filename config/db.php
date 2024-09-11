@@ -6,7 +6,7 @@ $user = "mbogodigitalUser";          // Gebruikersnaam die toegang heeft tot de 
 $password = "Vrieskist@247";        // Wachtwoord van de gebruiker.
 
 // Regel hieronder alleen gebruiken als je docker-compose gebruikt.
-// $host = "mysql";
+$host = "mysql";
 
 /*
  * MAAK EEN GEBRUIKER AAN IN MYSQL
