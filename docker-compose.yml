@@ -4,7 +4,7 @@ services:
   php:
     build: .
     ports:
-      - "7000:80"
+      - "5555:80"
     volumes:
       - .:/var/www/html
     depends_on:
