@@ -4,7 +4,7 @@ require_once __DOCUMENTROOT__ . '/config/db.php';
 require_once __DOCUMENTROOT__ . '/errors/default.php';
 
 $dsn = "mysql:host=$host;dbname=$dbName;charset=UTF8";
-echo $dsn;
+// echo $dsn;
 
 try {
     $db = new PDO($dsn, $user, $password);
